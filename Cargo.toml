@@ -1,0 +1,17 @@
+[package]
+name = "macro-playground"
+version = "0.1.0"
+authors = ["Andres <andresnrx@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "where I try out random macro things"
+homepage = "https://github.com/nrxus/macro-playground"
+repository = "https://github.com/nrxus/macro-playground"
+
+[dependencies]
+syn = { version = "1.0", features = ["full", "extra-traits"] }
+quote = "1.0"
+proc-macro2 = "1.0"
+
+[lib]
+proc-macro = true
